@@ -1,0 +1,22 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace swapping_without_using_third_variable
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int a = 10, b = 20;
+            a = a + b;
+            b = a - b;
+            a = a - b;
+            Console.WriteLine("The value of a is " + a);
+            Console.WriteLine("The value of b is " + b);
+            Console.ReadLine();
+        }
+    }
+}
